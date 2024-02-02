@@ -159,7 +159,7 @@ _HTTP method:_**[POST]**
 
 ```
 {
-    "buyBCH": "true",
+    "buydash": "true",
     "city": "New York City",
     "country": "United States",
     "paymentMethod": "Cash in person",
@@ -406,7 +406,7 @@ _HTTP method:_**[PUT]**
 | maker_id        | integer   | Yes          | Cannot be an empty field |
 | offer_id        | integer   | Yes          | Cannot be an empty field |
 | taker_id        | integer   | Yes          | Cannot be an empty field |
-| price_bch       | string    | Yes          | Cannot be an empty field |
+| price_dash      | string    | Yes          | Cannot be an empty field |
 | complete        | boolean   | Yes          | Cannot be an empty field |
 | cancelled       | boolean   | Yes          | Cannot be an empty field |
 | created_at      | timestamp |              |                          |
@@ -414,7 +414,7 @@ _HTTP method:_**[PUT]**
 
 ```
 {
-    "bchAmount": "1",
+    "dashAmount": "1",
     "fiatAmount": "300",
     "isMakerBuying": true,
     "makerId": {{userId}},
