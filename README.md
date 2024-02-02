@@ -135,7 +135,7 @@ _HTTP method:_**[POST]**
 
 | **name**        | **type**  | **required** | **description**          |
 | --------------- | --------- | ------------ | ------------------------ |
-| buyBCH          | boolean   | Yes          | Cannot be an empty field |
+| buyDash          | boolean   | Yes          | Cannot be an empty field |
 | country         | String    | Yes          | Cannot be an empty field |
 | city            | String    | Yes          | Cannot be an empty field |
 | paymentMethod   | String    | Yes          | Cannot be an empty field |
@@ -198,7 +198,7 @@ _HTTP method:_**[PUT]**
 | **name**        | **type**  | **required** | **description**          |
 | --------------- | --------- | ------------ | ------------------------ |
 | id              | integer   | Yes          | Cannot be an empty field |
-| buyBCH          | boolean   | Yes          | Cannot be an empty field |
+| buyDash          | boolean   | Yes          | Cannot be an empty field |
 | country         | String    | Yes          | Cannot be an empty field |
 | city            | String    | Yes          | Cannot be an empty field |
 | paymentMethod   | String    | Yes          | Cannot be an empty field |
@@ -224,7 +224,7 @@ _HTTP method:_**[PUT]**
 {
     "id": 2,
     "pause": true,
-    "buyBCH": "true",
+    "buydash": "true",
     "city": "New York City",
     "country": "United States",
     "paymentMethod": "Cash in person",
@@ -400,7 +400,7 @@ _HTTP method:_**[PUT]**
 
 | **name**        | **type**  | **required** | **description**          |
 | --------------- | --------- | ------------ | ------------------------ |
-| bch_amount      | string    | Yes          | Cannot be an empty field |
+| dash_amount      | string    | Yes          | Cannot be an empty field |
 | fiat_amount     | string    | Yes          | Cannot be an empty field |
 | is_maker_buying | boolean   | Yes          | Cannot be an empty field |
 | maker_id        | integer   | Yes          | Cannot be an empty field |
